@@ -4,7 +4,7 @@ flake8==3.7.7
 imutils==0.5.1
 mnemonic==0.18
 mypy==0.701
-opencv-python==3.4.3.18
+opencv-python==4.2.0.32
 prompt-toolkit==2.0.7
 pyAesCrypt==0.4.2
 pysha3==1.0.2
