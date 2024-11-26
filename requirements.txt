@@ -11,7 +11,7 @@ pysha3==1.0.2
 pytest-cov==2.6.1
 pytest==4.4.0
 python-bitcoinlib==0.11.0
-PyYAML==5.1.1
+PyYAML==5.4
 pyzbar==0.1.7
 qrcode[pil]==6.0
 twine==1.13.0

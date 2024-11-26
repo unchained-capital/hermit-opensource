@@ -48,7 +48,7 @@ pytest-cov==2.6.1
 python-bitcoinlib==0.11.0
 python-dateutil==2.8.0
 pytz==2019.2
-PyYAML==5.1.1
+PyYAML==5.4
 pyzbar==0.1.7
 qrcode==6.0
 readme-renderer==24.0
