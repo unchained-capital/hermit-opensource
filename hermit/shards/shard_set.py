@@ -69,7 +69,7 @@ class ShardSet(object):
             # If for some reason the persistence layer failed to  create the
             # the shards file, we assume that we just need to initialize
             # it as an empty bson object.
-            if not os.path.exists(self.config.shards_file):
+            if not os.path.exists(self.config.shards_file) or os.stat(self.config.shards_file).st_size == 0:
                 with open(self.config.shards_file, 'wb') as f:
                     f.write(bson.dumps({}))
 
